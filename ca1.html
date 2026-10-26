@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Restaurant Menu</title>
+  <link rel="stylesheet" href="ca1.css">
+</head>
+<body>
+  <h1>Our Restaurant Menu</h1>
+  <div class="menu">
+    <div class="card">
+      <img src="pizza-ca.jpg">
+      <h2>Pizza</h2>
+      <p class="price">250$</p>
+      <button onclick="orderFood('Pizza')">Order</button>
+    </div>
+    <div class="card">
+      <img src="burger-ca.jpg">
+      <h2>Burger</h2>
+      <p class="price">120$</p>
+      <button onclick="orderFood('Burger')">Order</button>
+    </div>
+    <div class="card">
+      <img src="pasta-ca.jpg">
+      <h2>Pasta</h2>
+      <p class="price">180$</p>
+      <button onclick="orderFood('Pasta')">Order</button>
+    </div>
+    <div class="card">
+      <img src="paneer-ca.jpg">
+      <h2>Paneer Tikka</h2>
+      <p class="price">200$</p>
+      <button onclick="orderFood('Paneer Tikka')">Order</button>
+    </div>
+  </div>
+  <p id="msg"></p>
+  <script src="ca1.js"></script>
+</body>
+</html>
